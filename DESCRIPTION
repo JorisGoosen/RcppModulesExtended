@@ -1,0 +1,12 @@
+Package: RcppModulesExtended
+Type: Package
+Title: Extends Rcpp-Modules with named-arguments
+Version: 1.0
+Date: 2018-04-03
+Author: Joris Goosen
+Maintainer: Joris Goosen <joris@jorisgoosen.nl>
+Description: Because updating Rcpp with an extension to Rcpp-Modules changes its ABI some changes have been moved to a seperate package.
+        This is to allow named-arguments that are more akin to standard R functioncalls to be used by modules-using-cpp-classes.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.16)
+LinkingTo: Rcpp
